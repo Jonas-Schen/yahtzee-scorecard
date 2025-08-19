@@ -1,5 +1,9 @@
 # Yahtzee Scorecard (Web)
 
+![Yahtzee Scorecard](https://img.shields.io/badge/Game-Yahtzee%20Scorecard-blue)
+![Views](https://komarev.com/ghpvc/?username=Jonas-Schen&repo=yahtzee-scorecard&color=blue)
+![Forks](https://img.shields.io/github/forks/Jonas-Schen/yahtzee-scorecard?style=social)
+
 A lightweight, browser-based Yahtzee scorecard with a clean UI, on-screen numeric keyboard, and built-in rule validation. Track up to three players with tabs, persist scores in localStorage, and enjoy quick edit/rename flows.
 
 ## Features
