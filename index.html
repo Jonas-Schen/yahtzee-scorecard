@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Yahtzee Scorecard</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+    <div id="modal-player-name" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <span class="close">&times;</span>
+                <span class="modal-title">
+                    Enter the player name
+                </span>
+            </div>
+
+            <div class="">
+                <input id="player-name" type="text" value="" />
+            </div>
+
+            <div class="">
+                <button class="confirm-player-name">
+                    OK
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <div id="modal-keyboard" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <span class="close">&times;</span>
+                <span class="modal-title"></span>
+            </div>
+            <div class="keyboard">
+                <div class="keyboard-screen" id="keyboardScreen">0</div>
+                <div class="keyboard-error">Invalid score...</div>
+                <div class="keyboard-keys">
+                    <button class="key">1</button>
+                    <button class="key">2</button>
+                    <button class="key">3</button>
+                    <button class="key">4</button>
+                    <button class="key">5</button>
+                    <button class="key">6</button>
+                    <button class="key">7</button>
+                    <button class="key">8</button>
+                    <button class="key">9</button>
+                    <button class="key">C</button>
+                    <button class="key">0</button>
+                    <button class="key">X</button>
+                    <button class="key full">OK</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="tabs">
+        <ul id="tab-list">
+        </ul>
+        <button id="add-tab-btn">+</button>
+    </div>
+    <div id="tab-contents">
+    </div>
+
+    <div>
+        <button class="reset">Restart</button>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <script src="assets/script_yahtzee.js"></script>
+    <script src="assets/script_keyboard.js"></script>
+</body>
+</html>
